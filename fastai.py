@@ -1,24 +1,27 @@
+import torch
 
-
-
-import matplotlib.pyplot as plt
-from torch.nn import functional
-import numpy
-import os
-import cv2
 from torch.nn import functional
 from torch.nn import Sequential, Conv2d
 from torch.optim import SGD, Adam
-from torchvision import models
 from torch import optim
+from torch.utils.data import DataLoader
+from torch.optim import SGD
+
 import torchvision
-import ray
+
+from torchvision import models
 from torchvision import transforms
 from torchvision.models import resnet50, alexnet, alexnet, inception_v3
 from torch.nn import Sequential
+
 from torchsummary import summary
-from torch.utils.data import DataLoader
-from torch.optim import SGD
+
+import matplotlib.pyplot as plt
+import numpy
+import os
+import cv2
+
+
 
 
 mnist_train = torchvision.datasets.MNIST(root = '/data', download = True,train = True,transform = transforms.ToTensor())
