@@ -28,4 +28,5 @@ def train_loop(dataloader,model,loss_fn,optimizer):
         if batch % 100 == 0:
             loss,current = loss.item(),batch*len(x)
 
-            
+PATH = '/path'
+torch.save('model.pkl',PATH)
