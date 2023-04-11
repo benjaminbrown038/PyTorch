@@ -8,7 +8,7 @@ model = nn.Sequential(
 			nn.MaxPool2d(2),
 			nn.Dropout(0.25),
 			nn.Flatten(),
-			nn.Linear(9216,128)
+			nn.Linear(9216,128),
 			nn.Linear(128,10),
 			nn.Softmax())
 
