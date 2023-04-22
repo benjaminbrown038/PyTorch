@@ -2,6 +2,8 @@
 
 ## References:
 
+- https://pytorch.org/docs/stable/jit.html
+
 - https://pytorch.org/vision/stable/models.html
 
 - https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
