@@ -13,3 +13,5 @@
 - https://pytorch.org/vision/main/transforms.html
 
 - https://pypi.org/project/torch-summary/
+
+- https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html
