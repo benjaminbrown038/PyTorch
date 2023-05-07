@@ -1,4 +1,4 @@
-# torch
+# PyTorch
 
 ## References:
 
