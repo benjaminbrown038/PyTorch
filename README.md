@@ -9,6 +9,10 @@
 
 - https://pytorch.org/tutorials/beginner/introyt/trainingyt.html
 
+##### Layers for Image Model (Convolutions, Pooling, Activation)
+
+- https://pytorch.org/docs/stable/nn.html#convolution-layers
+
 ##### Inference 
 
 - https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html
