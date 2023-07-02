@@ -1,3 +1,7 @@
+'''
+Incorporate Tensorboard into scripts with pytorch code.
+'''
+
 import torch 
 import torchvision
 
