@@ -1,8 +1,35 @@
+import torch 
+import torchvision
+
+'''
+
+'''
+
 mnist_train = torchvision.datasets.MNIST(root = '/data', download = True, train = True, transform = transforms.ToTensor())
+
+'''
+
+'''
+
 mnist_train_dataloader = DataLoader(mnist_train,batch_size = 64, shuffle = True)
 
+
+'''
+
+'''
+
 loss_fn = CrossEntropyLoss()
+
+
+'''
+
+'''
+
 optimizer = optim.SGD(model.parameters(),lr = .001, momentum = .9)
+
+'''
+
+'''
 
 def train_loop(dataloader,model,loss_fn,optimizer):
     size = len(dataloader.dataset)
@@ -14,5 +41,9 @@ def train_loop(dataloader,model,loss_fn,optimizer):
         optimizer.step()
         if batch % 100 == 0:
             loss,current = loss.item(),batch*len(x)
+
+'''
+
+'''
 
 torch.save('model.pkl'))
