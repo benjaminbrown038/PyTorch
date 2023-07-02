@@ -3,6 +3,8 @@ from torch.models import Sequential
 from torch.layers import Conv2d, MaxPool2d, Dropout, Flatten, Linear, Softmax
 from torchsummary import summary
 from torchvision.models import resnet50, inception_v3, alexnet
+from torch.utils.tensorboard import SummaryWriter
+
 
 '''
 
