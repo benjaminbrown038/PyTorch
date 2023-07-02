@@ -4,6 +4,7 @@ Incorporate Tensorboard into scripts with pytorch code.
 
 import torch 
 import torchvision
+from torch.utils.tensorboard import SummaryWriter
 
 '''
 
