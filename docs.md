@@ -1,6 +1,7 @@
 Docs:
 
 - https://pytorch.org/docs/stable/nn.html#convolution-layers
+- https://pytorch.org/vision/stable/datasets.html
 
 Tutorials:
 
